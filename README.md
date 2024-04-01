@@ -2,10 +2,12 @@
 This project utilizes a survey dataset provided by Alex the Analyst.
 
 ## Steps
+Loaded Excel dataset in power query
 
-1. Loaded Excel dataset in power query
-2. Removed columns that are blank and not necessary: Browser, OS, City, Country, Referrer
-3. Split the columns 
+Removed columns that are blank and not necessary: Browser, OS, City, Country, Referrer
+
+Split the columns:
+
 I split the columns 'Q1 - Which Title Best Fits your Current Role?' and 'Q4 - What Industry do you work in?' by delimiter '(' so the roles and industries that were typed in under the '(Other)' response only contain 'Other' instead of the rest of the text. 
 I also split the column 'Q5 - Favorite Programming Language' by delimiter ':' so the programming languages that were typed in under the 'Other:' response only contain 'Other' instead of the rest of the text typed in.
 
